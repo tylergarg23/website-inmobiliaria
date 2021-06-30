@@ -103,3 +103,19 @@
 .nav-link{
     color: #000 !important;
 }
+
+.text-logo{
+    color: #000;
+    padding-top:10px;
+}
+
+/** Nosotros **/
+
+.nosotros{
+    padding: 90px 0;
+}
+
+.sec-title h2 span{
+    color: #017cb8;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
