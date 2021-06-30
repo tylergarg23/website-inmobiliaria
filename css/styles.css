@@ -1,5 +1,5 @@
 :root{
-    --color-primary: #0084C9;
+    --color-primary: #017cb8;
     --color-secondary: #e6e6e6;
     --color-final: #070606;
 }
@@ -7,7 +7,7 @@
 
 /** Header **/
 .top-head{
-    background-color: #171636;
+    background-color: #222222;
 }
 
 /** Datos-top **/
@@ -29,11 +29,11 @@
     content: '\f08e';
     -webkit-font-smoothing: antialiased;
     font-size: 0.7rem;
-    color: #ffffff;
+    color: #017cb8;
 }
 
 .datos-top ul li .datos-top_text{
-    color: #fff;
+    color: #ffffff;
     font-size: 0.6rem;
     padding-right: 0.3rem;
 }
@@ -58,7 +58,7 @@
     content: '\f08e';
     -webkit-font-smoothing: antialiased;
     font-size: 1.3rem;
-    color: #ffffff;
+    color: #017cb8;
 }
 
 .social-top ul li a[href*="facebook.com"]::before{
@@ -71,4 +71,35 @@
 
 .social-top ul li a[href*="web.whatsapp.com"]::before{
     content: '\f232';
+}
+
+@media (max-width:992px){
+    .top-head{
+        display: none;
+    }
+}
+
+/** NAV **/
+.logo-nav{
+    width: 150px;
+    height:80px;
+}
+
+.bg-success-barra{
+    background-color: #fff;
+}
+
+@media (max-width: 991px){
+    .barra.bg-success-barra{
+        background-color: #017cb8;
+    }
+    
+    .header-nav-slider{
+        position: relative;
+    }
+
+}
+
+.nav-link{
+    color: #000 !important;
 }
